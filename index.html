@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clase Usuario v3</title>
+    <link href="./src/output.css" rel="stylesheet">
+</head>
+
+<body class="bg-gray-400 min-h-screen flex items-center">
+    <script type="module" src="index.js"></script>
+
+    <form action="#" method="POST" class="max-w-sm mx-auto">
+
+        <!--id-->
+        <div class="mb-5">
+            <label class="block mb-2.5 font-medium">ID</label>
+            <input type="text" name="id" class="border px-3 py-2.5 rounded-lg bg-gray-300" />
+        </div>
+
+        <!--nombre-->
+        <div class="mb-5">
+            <label class="block mb-2.5 font-medium">Nombre</label>
+            <input type="text" name="nombre" class="border px-3 py-2.5 rounded-lg bg-gray-300" />
+        </div>
+
+        <!--edad-->
+        <div class="mb-5">
+            <label class="block mb-2.5 font-medium">Edad</label>
+            <input type="number" name="edad" class="border px-3 py-2.5 rounded-lg bg-gray-300" />
+        </div>
+
+        <!--email-->
+        <div class="mb-5">
+            <label class="block mb-2.5 font-medium">Email</label>
+            <input type="email" name="email" class="border px-3 py-2.5 rounded-lg bg-gray-300" />
+        </div>
+
+        <!--telefono-->
+        <div class="mb-5">
+            <label class="block mb-2.5 font-medium">Telefono</label>
+            <input type="tel" name="telefono" class="border px-3 py-2.5 rounded-lg bg-gray-300" />
+        </div>
+
+        <!--contraseña y confirmacion-->
+        <div class="mb-5">
+            <label class="block mb-2.5 font-medium ">Contraseña</label>
+            <input type="password" name="newPin" class="border px-3 py-2.5 rounded-lg bg-gray-300" />
+        </div>
+        <div class="mb-5">
+            <label class="block mb-2.5 font-medium">Confirme su contraseña</label>
+            <input type="password" name="newPin2" class="border px-3 py-2.5 rounded-lg bg-gray-300" />
+        </div>
+
+
+        <button id="boton" type="submit"
+            class="text-black border border-black hover:bg-gray-300 font-medium text-sm px-4 py-2.5 rounded-lg">Guardar</button>
+    </form>
+
+</body>
+
+</html>
