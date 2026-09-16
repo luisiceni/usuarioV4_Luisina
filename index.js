@@ -1,4 +1,4 @@
-import Usuario from "./classes/usuario.js"; // importa la clase usuario[cite: 5]
+import Usuario from "./classes/usuario.js"; // importa la clase usuario
 
 const usuarios = [];
 
